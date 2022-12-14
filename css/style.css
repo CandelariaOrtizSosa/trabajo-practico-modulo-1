@@ -4,4 +4,32 @@
 * {margin: 0;
    padding: 0;}
 
-main {font-family: 'Montserrat', sans-serif;}
+body {font-family: 'Montserrat', sans-serif;
+   width: 70% ;
+   margin-left: 15%;
+   margin-right: 15%;}
+
+header {background-color: white;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;}
+
+.logo {width: 80px;
+       height: 33px;
+       align-self: center;}
+
+.navheader {align-self: center;}
+
+.textnav {margin: 5px;
+          font-size: 14px;
+          font-weight: bold;
+          text-decoration: none;
+         color: black;}
+
+.iconos {align-self: center;}
+
+.iconosheader {margin: 4px;
+              font-size: 15px;
+              text-decoration: none;
+              color: black;}
+             
