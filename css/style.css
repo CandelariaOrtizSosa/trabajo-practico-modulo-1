@@ -4,8 +4,15 @@
 * {margin: 0;
    padding: 0;}
 
+
+
+
+
 body {font-family: 'Montserrat', sans-serif;
       color: black;}
+
+
+
 
 header {background-color: white;
      display: flex;
@@ -33,6 +40,10 @@ header {background-color: white;
               font-size: 15px;
               text-decoration: none;
               color: black;}
+
+
+
+
 
 
 
@@ -100,3 +111,31 @@ header {background-color: white;
                    margin-left: 10px;
                   text-decoration-line: underline;}
 
+
+
+
+
+.sobremi {background-color: white;
+         width: 70% ;
+         margin-left: 15%;
+         margin-right: 15%;}
+
+.sobremi1 {display: flex;
+          flex-direction: column;
+          margin-top: 30px;
+          justify-content: center;}
+          
+
+.sobremirosa {text-align: center;
+             background-color: #FF91FB;
+             height: 20px;
+             width: 100px;}
+
+.sobremi2 {display: flex;
+          flex-direction: row;}
+
+.smiizquierda {width: 75%;
+              font-size: 16px;}
+
+.sobremidatos {display: flex;
+      flex-direction: row;}
