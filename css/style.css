@@ -15,9 +15,9 @@ header {background-color: white;
      margin-left: 15%;
      margin-right: 15%;}
 
-.logo {width: 80px;
-       height: 33px;
-       align-self: center;}
+.nombre {font-size: 30px;
+        font-weight: bolder;
+        color: black;}
 
 .navheader {align-self: center;}
 
@@ -39,10 +39,13 @@ header {background-color: white;
 
 .fotocande {width: 350px;
             height: 350px;
+            border-radius: 100%;
+            border-color: white;
             display: flex;
              flex-direction: column;
              align-content: center;
              align-self: center;}
+     
 
 .hero {background-color: #FF91FB;
       display: flex;
@@ -56,6 +59,12 @@ header {background-color: white;
              flex-direction: column;
              align-content: center;
              align-self: center;}
+
+.iconohero {text-decoration: none;
+                  font-weight: bold;
+                  color: black;
+                   margin-left: 10px;
+                  font-size: 18px;}
 
 
 .textoshero {display: flex;
@@ -74,12 +83,20 @@ header {background-color: white;
            font-weight: lighter;
            padding-top: 5px;}
 
-.botoneshero {display: flex;
-             flex-direction: row;
-            padding-top: 20px;
-            color: black;
-            font-family: 'Montserrat', sans-serif; }
+.navhero {margin-top: 30px;
+         text-decoration: none;}
 
-.bportafolio {box-color: none;}
+.textherotrabajos {background-color: black;
+                  font-size: 16px;
+                  color: #FF91FB;
+                  font-weight: bold;
+                  text-decoration: none;
+                  padding: 10px;}
 
-.bcontacto
+.textherocontacto {text-decoration: none;
+                  font-size: 16px;
+                  font-weight: bold;
+                  color: black;
+                   margin-left: 10px;
+                  text-decoration-line: underline;}
+
