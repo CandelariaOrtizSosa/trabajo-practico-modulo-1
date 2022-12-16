@@ -22,7 +22,7 @@ header {background-color: white;
      margin-left: 15%;
      margin-right: 15%;}
 
-.nombre {font-size: 30px;
+.nombre {font-size: 25px;
         font-weight: bolder;
         color: black;}
 
@@ -121,21 +121,59 @@ header {background-color: white;
          margin-right: 15%;}
 
 .sobremi1 {display: flex;
+          justify-content: center;
+          align-items: center;
           flex-direction: column;
           margin-top: 30px;
-          justify-content: center;}
+          margin-bottom: 30px;}
           
 
 .sobremirosa {text-align: center;
              background-color: #FF91FB;
+             font-size: 14px;
              height: 20px;
-             width: 100px;}
+             width: 100px;
+             align-self: center;
+            margin-bottom: 10px;}
+
+.conocememas {font-size: 30px;}
 
 .sobremi2 {display: flex;
           flex-direction: row;}
 
+.holasoy {font-weight: normal;
+         font-size: 30px;
+         margin-bottom: 20px}
+
+.candespan {font-weight: bold;
+           font-size: 28px;
+           text-decoration: underline;}
+
 .smiizquierda {width: 75%;
-              font-size: 16px;}
+              font-size: 16px;
+              justify-content: flex-end;}
+
+.sobremiderecha {display: flex;
+      flex-direction: row;}
+
+.tres {font-weight: bolder;
+       font-size: 100px;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+      background-color: #FF91FB;
+      border-radius: 60%;}
+
+.añosexp {font-size: 20px;
+         font-weight: normal;
+         margin-top: 20px;}
+
+.spanexp {font-weight: bolder;}
 
 .sobremidatos {display: flex;
-      flex-direction: row;}
+              flex-direction: row;
+              justify-content: space-between;
+              margin-top: 60px;
+              font-size: 14px;}
+
+.datosinferior {font-weight: bold;}
