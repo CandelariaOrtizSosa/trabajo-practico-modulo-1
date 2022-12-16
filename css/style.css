@@ -218,6 +218,9 @@ header {background-color: white;
            align-items: center;}
 
 
+
+
+
            
 
 .curriculum1 {display: flex;
@@ -241,8 +244,7 @@ header {background-color: white;
       flex-direction: row;
       justify-content: space-between;
       padding-left: 15%;
-      padding-right: 15%;
-      height: 500px;}
+      padding-right: 15%;}
 
 .educyexptit {font-size: 20px ;
               margin-bottom: 15px;}
@@ -259,3 +261,10 @@ header {background-color: white;
                  margin-bottom: 10px;
                 color: rgb(87, 87, 87);}
 
+.habilidades {display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 15%;
+      padding-right: 15%;
+      margin-top: 30px;
+      font-size: 15px;}
