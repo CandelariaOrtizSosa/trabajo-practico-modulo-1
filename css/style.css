@@ -64,6 +64,9 @@ header {background-color: white;
       padding-left: 15%;
       padding-right: 15%;
       height: 500px;}
+
+.herodereizq {display: flex;
+              justify-content: space-between;}
    
 
 .textoyboton {display: flex;
@@ -138,8 +141,9 @@ header {background-color: white;
 
 .conocememas {font-size: 30px;}
 
-.sobremi2 {display: flex;
-          flex-direction: row;}
+.sobremidereizq {display: flex;
+          flex-direction: row;
+          justify-content: space-between;}
 
 .holasoy {font-weight: normal;
          font-size: 30px;
@@ -150,8 +154,7 @@ header {background-color: white;
            text-decoration: underline;}
 
 .smiizquierda {width: 75%;
-              font-size: 16px;
-              justify-content: flex-end;}
+              font-size: 16px;}
 
 .sobremiderecha {display: flex;
       flex-direction: row;}
@@ -174,6 +177,85 @@ header {background-color: white;
               flex-direction: row;
               justify-content: space-between;
               margin-top: 60px;
-              font-size: 14px;}
+              font-size: 14px;
+              margin-bottom: 30px;}
 
 .datosinferior {font-weight: bold;}
+
+
+.servicios {background-color: rgb(234, 224, 224);}
+
+.servicios1 {display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 30px;
+      margin-bottom: 30px;}
+      
+
+.serviciosrosa {text-align: center;
+         background-color: #FF91FB;
+         font-size: 14px;
+         height: 20px;
+         width: 175px;
+         align-self: center;
+        margin-bottom: 10px;}
+
+.comopuedoayudarte {font-size: 30px;}
+
+.serviciosiconoseinfo {width: 70% ;
+            margin-left: 15%; 
+            margin-right: 15%;
+            display: flex;
+            flex-direction: row;}
+
+
+.cajaservicios {width: 400px; 
+           height: 400px;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           align-items: center;}
+
+
+           
+
+.curriculum1 {display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 30px;
+            margin-bottom: 30px;}
+
+.cvrosa {text-align: center;
+            background-color: #FF91FB;
+            font-size: 14px;
+            height: 20px;
+            width: 175px;
+            align-self: center;
+           margin-bottom: 10px;}
+   
+.unpocodemicv {font-size: 30px;}
+
+.cvdereizq {display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 15%;
+      padding-right: 15%;
+      height: 500px;}
+
+.educyexptit {font-size: 20px ;
+              margin-bottom: 15px;}
+   
+.educyexpsub1 {font-size: 15px ;
+              font-weight: bold;
+              margin-bottom: 10px;}
+
+.educyexpsub2 {font-size: 12px ;
+               font-weight: bold;
+               margin-bottom: 10px;}
+
+.educyexpdescp { font-size: 12px;
+                 margin-bottom: 10px;
+                color: rgb(87, 87, 87);}
+
