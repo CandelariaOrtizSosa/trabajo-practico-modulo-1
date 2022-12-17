@@ -11,6 +11,7 @@
 body {font-family: 'Montserrat', sans-serif;
       color: black;}
 
+.colorgris {background-color: rgb(234, 224, 224);}
 
 
 
@@ -183,8 +184,6 @@ header {background-color: white;
 .datosinferior {font-weight: bold;}
 
 
-.servicios {background-color: rgb(234, 224, 224);}
-
 .servicios1 {display: flex;
       justify-content: center;
       align-items: center;
@@ -275,7 +274,7 @@ header {background-color: white;
       justify-content: space-between;
       padding-left: 15%;
       padding-right: 15%;
-      margin-top: 30px;
+      margin-top: 15px;
       font-size: 14px;}
 
 .habcajas {display: flex;
@@ -319,6 +318,51 @@ hr { height: 8px;
       text-decoration: none;
       padding: 10px;}
 
+
+
+
+
+
+.portafolio {display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 70% ;
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-top: 30px;
+      background-color: rgb(234, 224, 224)}
+
+.portrosa {text-align: center;
+            background-color: #FF91FB;
+            font-size: 14px;
+            height: 20px;
+            width: 175px;
+            align-self: center;
+           margin-bottom: 20px;
+           margin-top: 30px;}
+   
+.porttit {font-size: 30px;
+        margin-bottom: 15px;}
+
+.navport {align-self: center;
+         margin-bottom: 15px;}
+
+.textnav2 {margin: 5px;
+                  font-size: 12px;
+                  font-weight: bold;
+                  text-decoration: none;
+                  color :rgb(87, 87, 87);}
+
+.galeria {display: flex;
+         flex-direction: column;
+         align-content: space-between;}
+
+.imggaleria {height: 300px;
+             width: 300px;
+            padding: 25px;}
+
+        
 
 
 
