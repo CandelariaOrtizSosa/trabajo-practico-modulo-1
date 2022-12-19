@@ -184,6 +184,13 @@ header {background-color: white;
 .datosinferior {font-weight: bold;}
 
 
+
+
+
+.servicios {width: 70%;
+           margin-left: 15%;
+           margin-top: 15%;}
+
 .servicios1 {display: flex;
       justify-content: center;
       align-items: center;
@@ -202,21 +209,20 @@ header {background-color: white;
 
 .comopuedoayudarte {font-size: 30px;}
 
-.serviciosiconoseinfo {margin-left: 15%; 
-            margin-right: 15%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-             align-items: center;}
+.serviciossuperiores {display: flex;
+                       flex-direction: row;
+                      justify-content: space-between;}
 
+.serviciosinferiores {display: flex;
+                        flex-direction: row;
+                     justify-content: space-between;
+                     margin-bottom: 30px;}
 
-.cajaservicios {width: 250px; 
-           height: 250px;
-           display: flex;
+.cajaservicios {display: flex;
            flex-direction: column;
            align-items: center;
            text-align: center;
-           flex-grow: 1;}
+          justify-content: space-around;}
 
 .iconserv {font-size: 30px;
             color: #FF91FB;}
@@ -356,11 +362,10 @@ hr { height: 8px;
 
 .galeria {display: flex;
          flex-direction: column;
-         align-content: space-between;}
+         justify-content: space-between;}
 
 .imggaleria {height: 300px;
-             width: 300px;
-            padding: 25px;}
+             width: 300px;}
 
         
 
