@@ -185,7 +185,8 @@ header {background-color: white;
 
 
 .servicios {width: 70%;
-           margin: auto;}
+           margin: auto;
+           height: 400px;}
       
 
 .servicios1 {display: flex;
@@ -208,12 +209,15 @@ header {background-color: white;
 
 .serviciossuperiores {display: flex;
                        flex-direction: row;
-                      justify-content: space-between;}
+                      justify-content: space-between;
+                     align-content: space-between;}
 
 .serviciosinferiores {display: flex;
                         flex-direction: row;
                      justify-content: space-between;
-                     margin-bottom: 30px;}
+                     align-content: space-between;
+                     margin-bottom: 30px;
+                     margin-top: 30px;}
 
 .cajaservicios {display: flex;
            flex-direction: column;
@@ -223,9 +227,11 @@ header {background-color: white;
           margin-right: 30px;}
 
 .iconserv {font-size: 30px;
-            color: #FF91FB;}
+            color: #FF91FB;
+          margin-bottom: 10px;}
 
-.titcajas {font-size: 15px;}
+.titcajas {font-size: 15px;
+          margin-bottom: 10px;}
       
 .textcajas {font-size: 10px;}
 
@@ -330,6 +336,7 @@ hr { height: 8px;
       flex-direction: column;
       text-align: center;
       width: 70%;
+      height: 900px;
       margin: auto;
       margin-top: 30px;
       margin-bottom: 30px;
@@ -359,10 +366,12 @@ hr { height: 8px;
 
 .galeria {display: flex;
          flex-direction: column;
-         justify-content: space-between;}
+         justify-content: space-between;
+         align-content: space-between;}
 
 .imggaleria {height: 300px;
-             width: 300px;}
+             width: 300px;
+            padding: 25px;}
 
         
 
