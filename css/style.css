@@ -19,11 +19,13 @@ header {background-color: white;
      flex-direction: row;
      justify-content: space-between;
      width: 70% ;
+     height: 50px;
      margin: auto;}
 
-.nombre {font-size: 25px;
+.nombre {font-size: 24px;
         font-weight: bolder;
-        color: black;}
+        color: black;
+        align-self: center;}
 
 .navheader {align-self: center;}
 
