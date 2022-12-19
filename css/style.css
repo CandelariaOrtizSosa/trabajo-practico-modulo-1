@@ -286,7 +286,8 @@ header {background-color: white;
 .habcajas {display: flex;
           flex-direction: row;
           justify-content: space-between;
-          margin-top: 15px;}
+          margin-top: 15px;
+          margin-bottom: 30px;}
 
 .habder {display: flex;
       flex-direction: column;}
@@ -371,3 +372,33 @@ hr { height: 8px;
 
 
 
+ footer {background-color: #FF91FB;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;}
+
+.contacto {width: 70%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between ;
+          margin-top: 30px;
+          margin-bottom: 30px;}
+
+.textoscont {width: 40%;}
+
+.contactotit {font-size: 28px;
+      margin-bottom: 15px;}
+
+.contactotext {font-size: 15px;}
+
+.contactinfotit {margin-top: 15px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 5px;}
+
+.contactinfotext {font-size: 12px;}
+
+.contacticons {margin-top: 15px;}
+
+.iconoscontacto {padding: 5px;
+                color: rgb(87, 87, 87);}
