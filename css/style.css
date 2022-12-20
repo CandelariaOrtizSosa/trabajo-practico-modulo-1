@@ -9,18 +9,22 @@
 
 
 body {font-family: 'Poppins', sans-serif;;
-      color: black;}
+      color: black;
+     padding-top: 50px;}
 
 .colorgris {background-color: rgb(234, 224, 224);}
 
 
-header {background-color: white;
+.navbar {background-color: white;
+      position: fixed;
+      top: 0%;
+      width: 100%;
+      max-width: inherit;
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
-     width: 70% ;
-     height: 50px;
-     margin: auto;}
+     justify-content: space-evenly;
+     height: 50px;}
+
 
 .nombre {font-size: 24px;
         font-weight: bolder;
@@ -410,3 +414,11 @@ hr { height: 8px;
 
 .iconoscontacto {padding: 5px;
                 color: rgb(87, 87, 87);}
+
+.formtit {font-size: 28px;
+                  margin-bottom: 15px;}
+            
+
+input[type=texto] {border: 0px;
+      background-color: #FF91FB;
+      border-bottom: 1px solid rgb(87, 87, 87); }
