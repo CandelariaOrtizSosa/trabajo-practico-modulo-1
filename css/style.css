@@ -451,4 +451,17 @@ button {border: 0px;
                   padding: 10px;
                   margin-top: 15px};
 
+.iconform {font-size: 16px;
+      color: #FF91FB;
+      font-weight: bold;
+      margin-right: 3px;}
+
+
+
+.conhover:hover {text-decoration: underline 2px #FF91FB}
+
+.conhover2:hover {color:#FF91FB}
+
+.conhover3:hover {color:white}
+
 
