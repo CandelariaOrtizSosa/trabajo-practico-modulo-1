@@ -95,8 +95,15 @@ body {font-family: 'Poppins', sans-serif;;
       font-weight: lighter;
       padding-bottom: 5px;}
 
+.diseñadora {font-size: 50px;
+            font-weight: bold;}
+
 .desarrolladora {font-size: 50px;
-                font-weight: bold;}
+                font-weight: bold;
+                border-right: 3px solid black;
+                animation: blink 1s steps(1) infinite;}
+
+@keyframes blink { 50% {border-color: transparent;}}
 
 .viviendo {font-size: 15px;
            font-weight: lighter;
@@ -382,7 +389,8 @@ hr { height: 8px;
 
 .imggaleria {height: 300px;
              width: 300px;
-            padding: 25px;}
+            padding: 25px;
+            opacity: 75%;}
 
         
 
@@ -458,10 +466,14 @@ button {border: 0px;
 
 
 
-.conhover:hover {text-decoration: underline 2px #FF91FB}
+.conhover:hover {text-decoration: underline 2px #FF91FB;}
 
-.conhover2:hover {color:#FF91FB}
+.conhover2:hover {color:#FF91FB;
+                 font-size: 20px;}
 
-.conhover3:hover {color:white}
+.conhover3:hover {color:white;
+                  font-size: 20px;}
+
+.imggaleria:hover {opacity: 100%;}
 
 
