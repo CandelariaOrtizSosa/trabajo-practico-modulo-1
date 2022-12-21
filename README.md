@@ -6,4 +6,6 @@
 
 La misma cuenta con una barra de navegación fijada en la parte superior de la pantalla, un hero más 4 section, y dentro de estos podes encontrar varios hover y animaciones en css.
 
+Para ver la página ingresa a: CandelariaOrtizSosa.github.io
+
 ¡Espero que te guste!
